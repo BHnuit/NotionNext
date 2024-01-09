@@ -35,10 +35,7 @@ const SocialButton = () => {
       {siteConfig('CONTACT_BILIBILI') && <a target='_blank' rel='noreferrer' title={'bilibili'} href={siteConfig('CONTACT_BILIBILI')} >
         <i className='fab fa-bilibili transform hover:scale-125 duration-150'/>
       </a>}
-      {siteConfig('CONTACT_YOUTUBE') && <a target='_blank' rel='noreferrer' title={'youtube'} href={siteConfig('CONTACT_YOUTUBE')} >
-        <i className='fab fa-youtube transform hover:scale-125 duration-150'/>
-      </a>}
-      {siteConfig('CONTACT_SPOTIFY') && <a target='_blank' rel='noreferrer' title={'spotify'} href={siteConfig('CONTACT_SPOTIFY')} >
+      {siteConfig('CONTACT_YOUTUBE') && <a target='_blank' rel='noreferrer' title={'spotify'} href={siteConfig('CONTACT_YOUTUBE')} >
         <i className='fab fa-spotify transform hover:scale-125 duration-150'/>
       </a>}
     </div>
