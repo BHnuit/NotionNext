@@ -17,13 +17,13 @@ const SocialButton = () => {
       {siteConfig('CONTACT_TELEGRAM') && <a target='_blank' rel='noreferrer' href={siteConfig('CONTACT_TELEGRAM')} title={'telegram'} >
         <i className='fab fa-telegram transform hover:scale-125 duration-150'/>
       </a>}
-      {siteConfig('CONTACT_LINKEDIN') && <a target='_blank' rel='noreferrer' href={siteConfig('CONTACT_LINKEDIN')} title={'豆瓣电影'} >
+      {siteConfig('CONTACT_LINKEDIN') && <a target='_blank' rel='noreferrer' href={siteConfig('CONTACT_LINKEDIN')} title={'最近看的电影'} >
         <i className='fas fa-film transform hover:scale-125 duration-150'/>
       </a>}
       {siteConfig('CONTACT_WEIBO') && <a target='_blank' rel='noreferrer' title={'weibo'} href={siteConfig('CONTACT_WEIBO')} >
         <i className='fab fa-weibo transform hover:scale-125 duration-150'/>
       </a>}
-      {siteConfig('CONTACT_INSTAGRAM') && <a target='_blank' rel='noreferrer' title={'豆瓣读书'} href={siteConfig('CONTACT_INSTAGRAM')} >
+      {siteConfig('CONTACT_INSTAGRAM') && <a target='_blank' rel='noreferrer' title={'最近读的书'} href={siteConfig('CONTACT_INSTAGRAM')} >
         <i className='fas fa-book transform hover:scale-125 duration-150'/>
       </a>}
       {siteConfig('CONTACT_EMAIL') && <a target='_blank' rel='noreferrer' title={'email'} href={`mailto:${siteConfig('CONTACT_EMAIL')}`} >
@@ -35,7 +35,7 @@ const SocialButton = () => {
       {siteConfig('CONTACT_BILIBILI') && <a target='_blank' rel='noreferrer' title={'小红书'} href={siteConfig('CONTACT_BILIBILI')} >
         <i className='fas fa-clipboard transform hover:scale-125 duration-150'/>
       </a>}
-      {siteConfig('CONTACT_YOUTUBE') && <a target='_blank' rel='noreferrer' title={'spotify'} href={siteConfig('CONTACT_YOUTUBE')} >
+      {siteConfig('CONTACT_YOUTUBE') && <a target='_blank' rel='noreferrer' title={'最近听的歌'} href={siteConfig('CONTACT_YOUTUBE')} >
         <i className='fab fa-spotify transform hover:scale-125 duration-150'/>
       </a>}
     </div>
