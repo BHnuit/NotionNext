@@ -41,8 +41,8 @@ const SocialButton = () => {
             target='_blank'
             rel='noreferrer'
             href={siteConfig('CONTACT_LINKEDIN')}
-            title={'linkedIn'}>
-            <i className='fab fa-linkedin transform hover:scale-125 duration-150' />
+            title={'最近看的电影'}>
+            <i className='fas fa-film transform hover:scale-125 duration-150' />
           </a>
         )}
         {siteConfig('CONTACT_WEIBO') && (
@@ -58,9 +58,9 @@ const SocialButton = () => {
           <a
             target='_blank'
             rel='noreferrer'
-            title={'instagram'}
+            title={'最近读的书'}
             href={siteConfig('CONTACT_INSTAGRAM')}>
-            <i className='fab fa-instagram transform hover:scale-125 duration-150' />
+            <i className='fas fa-book transform hover:scale-125 duration-150' />
           </a>
         )}
         {siteConfig('CONTACT_EMAIL') && (
@@ -94,9 +94,9 @@ const SocialButton = () => {
           <a
             target='_blank'
             rel='noreferrer'
-            title={'youtube'}
+            title={'最近听的歌'}
             href={siteConfig('CONTACT_YOUTUBE')}>
-            <i className='fab fa-youtube transform hover:scale-125 duration-150' />
+            <i className='fab fa-spotify transform hover:scale-125 duration-150' />
           </a>
         )}
       </div>
