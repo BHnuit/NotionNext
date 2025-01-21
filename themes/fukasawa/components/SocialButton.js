@@ -67,8 +67,8 @@ const SocialButton = () => {
             target='_blank'
             rel='noreferrer'
             href={CONTACT_LINKEDIN}
-            title={'linkIn'}>
-            <i className='transform hover:scale-125 duration-150 fab fa-linkedin dark:hover:text-green-400 hover:text-green-600' />
+            title={'最近看的电影'}>
+            <i className='transform hover:scale-125 duration-150 fas fa-film dark:hover:text-green-400 hover:text-green-600' />
           </a>
         )}
         {CONTACT_WEIBO && (
@@ -84,9 +84,9 @@ const SocialButton = () => {
           <a
             target='_blank'
             rel='noreferrer'
-            title={'instagram'}
+            title={'最近读的书'}
             href={CONTACT_INSTAGRAM}>
-            <i className='transform hover:scale-125 duration-150 fab fa-instagram dark:hover:text-green-400 hover:text-green-600' />
+            <i className='transform hover:scale-125 duration-150 fas fa-book dark:hover:text-green-400 hover:text-green-600' />
           </a>
         )}
         {CONTACT_EMAIL && (
@@ -120,9 +120,9 @@ const SocialButton = () => {
           <a
             target='_blank'
             rel='noreferrer'
-            title={'youtube'}
+            title={'最近听的歌'}
             href={CONTACT_YOUTUBE}>
-            <i className='transform hover:scale-125 duration-150 fab fa-youtube dark:hover:text-green-400 hover:text-green-600' />
+            <i className='transform hover:scale-125 duration-150 fab fa-spotify dark:hover:text-green-400 hover:text-green-600' />
           </a>
         )}
         {CONTACT_XIAOHONGSHU && (
